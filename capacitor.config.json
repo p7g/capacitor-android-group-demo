@@ -1,0 +1,7 @@
+{
+  "appId": "ac.pat.groupdemo",
+  "appName": "group-demo",
+  "bundledWebRuntime": true,
+  "npmClient": "npm",
+  "webDir": "www"
+}

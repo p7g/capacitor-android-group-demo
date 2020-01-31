@@ -1,0 +1,21 @@
+{
+  "name": "capacitor-app",
+  "version": "1.0.0",
+  "description": "An Amazing Capacitor App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "git clone --single-branch --branch android-localnotifications-group https://github.com/fellowinsights/capacitor deps/capacitor"
+  },
+  "keywords": [
+    "capacitor",
+    "mobile"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@capacitor/android": "./deps/capacitor/android",
+    "@capacitor/cli": "^1.4.0",
+    "@capacitor/core": "./deps/capacitor/core"
+  }
+}

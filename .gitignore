@@ -1,0 +1,4 @@
+deps
+node_modules
+.gradle
+android/build
